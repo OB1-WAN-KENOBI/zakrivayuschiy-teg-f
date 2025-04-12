@@ -42,6 +42,10 @@ ol {
   list-style: none;
 }
 
+img {
+  width: clamp(23.438rem, 35.906vw + 0.413rem, 43.5rem);
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;

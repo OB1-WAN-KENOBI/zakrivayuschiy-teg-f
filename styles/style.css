@@ -21,10 +21,6 @@
   padding-top: 100px;
 }
 
-.page_header {
-  margin-bottom: 99px;
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -58,13 +54,12 @@
 .main {
   display: grid;
   justify-items: center;
-  max-width: 696px;
-  margin: 102px auto;
+  margin-block-start: 102px;
 }
 
 .card_list {
   display: grid;
-  gap: 50px;
+  gap: 51px;
   grid-auto-columns: 1fr;
   justify-items: center;
   margin-bottom: 50px;
@@ -124,7 +119,7 @@
 }
 
 .card_content {
-  padding: 25px 30px 0 25px;
+  padding: 25px 25px 0 25px;
   display: flex;
   flex-direction: column;
   gap: 27px;
@@ -169,7 +164,7 @@
   mix-blend-mode: difference;
   color: var(--page-background-color, #fff);
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 
 .button::after {
@@ -214,6 +209,17 @@
   border-color: var(--accent-color, #000);
 }
 
+.icon {
+  width: 21px;
+  color: var(--page-background-color, #fff);
+  mix-blend-mode: difference;
+  z-index: 1;
+}
+
+.icon-big {
+  width: 31%;
+}
+
 .button-save {
   display: flex;
   align-items: center;
@@ -228,15 +234,7 @@
   position: relative;
   transition: box-shadow 0.3s ease;
   appearance: none;
-}
-
-.button-icon {
-  width: 21px;
-  color: var(--page-background-color, #fff);
-  mix-blend-mode: difference;
-  position: relative;
-  z-index: 3;
-  appearance: none;
+  justify-content: center;
 }
 
 .modal {
@@ -297,27 +295,35 @@
 .filter-sepia {
   filter: sepia(80%);
 }
+
 .filter-contrast {
   filter: contrast(200%);
 }
+
 .filter-invert {
   filter: invert(40%);
 }
+
 .filter-grayscale {
   filter: grayscale(100%);
 }
+
 .filter-opacity {
   filter: hue-rotate(90deg);
 }
+
 .filter-hue-rotate {
   filter: saturate(200%);
 }
+
 .filter-brightness {
   filter: blur(2px);
 }
+
 .filter-saturate {
   filter: sepia(20%) contrast(100%) hue-rotate(10deg) saturate(170%) blur(1.5px);
 }
+
 .filter-blur {
   filter: blur(1px);
 }
@@ -346,9 +352,11 @@
   .margin-correctiful {
     margin-top: 20px;
   }
+
   .margin-correct {
     margin-top: 22px;
   }
+
   .padding-correct {
     padding-top: 0;
   }
