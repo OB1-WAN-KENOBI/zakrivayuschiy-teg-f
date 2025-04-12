@@ -29,8 +29,7 @@
   gap: 20px;
   border: 2px solid var(--text-color, #000);
   background-color: var(--page-background-color, #fff);
-  padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem) 0
-    clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
+  padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
   font-family: var(--accent-font-family), sans-serif;
   text-transform: uppercase;
 }
