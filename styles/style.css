@@ -154,10 +154,6 @@
   appearance: none;
 }
 
-.padding-correct {
-  padding-top: 20px;
-}
-
 .button__text {
   font-family: var(--accent-font-family), sans-serif;
   font-size: 14px;
@@ -310,15 +306,15 @@
 }
 
 .filter-opacity {
-  filter: hue-rotate(90deg);
+  filter: opacity(70%);
 }
 
 .filter-hue-rotate {
-  filter: saturate(200%);
+  filter: hue-rotate(90deg);
 }
 
 .filter-brightness {
-  filter: blur(2px);
+  filter: brightness(120%);
 }
 
 .filter-saturate {
