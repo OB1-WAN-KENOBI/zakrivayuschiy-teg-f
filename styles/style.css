@@ -89,8 +89,6 @@
   overflow: hidden;
 }
 
-
-
 .card_image-picture {
   display: block;
   width: 100%;
@@ -326,11 +324,30 @@
 }
 
 @media (max-width: 376px) {
+  .header {
+    min-width: 375px;
+    min-height: 327px;
+    padding: 0;
+  }
+
+  .card_content {
+    padding: 23px 30.3px 0 25px;
+  }
+
+  .icon {
+    width: 28px;
+  }
+
+  .main {
+    margin-block-start: 100px;
+  }
+
   .button-save {
     flex-direction: column;
     min-height: 84px;
     min-width: 306px;
     margin-bottom: 100px;
+    gap: 0;
   }
 
   .card_image-text {
@@ -342,4 +359,11 @@
     padding: 30px 42px;
   }
 
+  .modal_content {
+    gap: 20px;
+  }
+
+  .button__text {
+    margin-block-start: 9px;
+  }
 }
