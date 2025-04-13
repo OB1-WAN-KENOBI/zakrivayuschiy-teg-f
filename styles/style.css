@@ -241,7 +241,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
+  gap: 20px;
   background-color: var(--page-background-color, #fff);
   color: var(--text-color, #000);
   font-family: var(--accent-font-family), sans-serif;
